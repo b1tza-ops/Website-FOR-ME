@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch to discuss your website. Call, WhatsApp, or use the contact form. Based in London.">
+  <meta property="og:title" content="Contact — Paul's Web Design">
+  <meta property="og:description" content="Call, WhatsApp, or send a message. I usually reply within a few hours.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
+  <title>Contact — Paul's Web Design</title>
+  <link rel="canonical" href="https://paulscr09.github.io/Website-FOR-ME/contact.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%231a2744'/><text x='50' y='68' font-family='Arial,sans-serif' font-size='60' font-weight='bold' fill='white' text-anchor='middle'>P</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- ====== Header ====== -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-logo">Paul's Web Design</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ====== Page Header ====== -->
+  <section class="hero">
+    <div class="container">
+      <h1>Let's Talk About Your Website</h1>
+      <p>The quickest way to get started is to call or send a WhatsApp message. I usually reply within a few hours.</p>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!-- ====== Contact Details + Form ====== -->
+    <section class="section">
+      <div class="container">
+        <div class="two-col">
+
+          <!-- Left: Contact Details -->
+          <div>
+            <h2>Get in Touch Directly</h2>
+            <div class="contact-methods">
+              <p><strong>Phone / WhatsApp:</strong><br>
+                <a href="tel:+447723644810">07723 644 810</a>
+              </p>
+              <p><strong>Email:</strong><br>
+                <a href="mailto:paulscr09@gmail.com">paulscr09@gmail.com</a>
+              </p>
+              <p><strong>Location:</strong><br>
+                London, UK
+              </p>
+            </div>
+            <div class="hero-cta" style="justify-content:flex-start;">
+              <a href="tel:+447723644810" class="btn btn--dark">Call Now</a>
+              <a href="https://wa.me/447723644810" class="btn btn--whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp Me</a>
+            </div>
+          </div>
+
+          <!-- Right: Contact Form -->
+          <div>
+            <h2>Or Send a Message</h2>
+            <form class="contact-form" action="https://formspree.io/f/xbdadgaj" method="POST">
+              <input type="hidden" name="_next" value="https://paulscr09.github.io/Website-FOR-ME/thankyou.html">
+              <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label for="business">What Does Your Business Do?</label>
+                <input type="text" id="business" name="business" placeholder="e.g. Rubbish removal in South London" required>
+              </div>
+              <div class="form-group">
+                <label for="package">Package</label>
+                <select id="package" name="package">
+                  <option value="">Not sure yet</option>
+                  <option value="Starter (£299)">Starter — £299</option>
+                  <option value="Standard (£499)">Standard — £499</option>
+                  <option value="Professional (£799)">Professional — £799</option>
+                </select>
+              </div>
+              <fieldset class="form-group form-extras" id="extras-fieldset" hidden>
+                <legend>Optional Extras</legend>
+                <label class="checkbox-label">
+                  <input type="checkbox" name="extras" value="Domain name setup (£30)">
+                  Domain name setup — £30
+                </label>
+                <label class="checkbox-label">
+                  <input type="checkbox" name="extras" value="Business email setup (£30)">
+                  Business email setup — £30
+                </label>
+                <label class="checkbox-label">
+                  <input type="checkbox" name="extras" value="Annual hosting (from £60/year)">
+                  Annual hosting arrangement — from £60/year
+                </label>
+              </fieldset>
+              <div class="form-group">
+                <label for="message">Message <span class="text-muted">(optional)</span></label>
+                <textarea id="message" name="message" rows="5"></textarea>
+              </div>
+              <button type="submit" class="form-submit">Send Message</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====== Footer ====== -->
+  <footer class="site-footer">
+    <div class="container">
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <p>&copy; 2026 Paul's Web Design. London, UK.</p>
+      <p><a href="tel:+447723644810">07723 644 810</a> &middot; <a href="mailto:paulscr09@gmail.com">paulscr09@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <!-- ====== Sticky WhatsApp Button ====== -->
+  <a href="https://wa.me/447723644810" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.136.558 4.142 1.534 5.886L0 24l6.305-1.654A11.94 11.94 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.6a9.56 9.56 0 0 1-5.14-1.8l-.348-.207-3.604.946.962-3.516-.228-.36A9.56 9.56 0 0 1 2.4 12c0-5.302 4.298-9.6 9.6-9.6s9.6 4.298 9.6 9.6-4.298 9.6-9.6 9.6z"/></svg>
+  </a>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('main-nav');
+      if (!toggle || !nav) return;
+
+      function closeNav() {
+        toggle.setAttribute('aria-expanded', 'false');
+        nav.classList.remove('is-open');
+        document.body.classList.remove('nav-open');
+      }
+
+      function openNav() {
+        toggle.setAttribute('aria-expanded', 'true');
+        nav.classList.add('is-open');
+        document.body.classList.add('nav-open');
+      }
+
+      toggle.addEventListener('click', function () {
+        var expanded = toggle.getAttribute('aria-expanded') === 'true';
+        expanded ? closeNav() : openNav();
+      });
+
+      nav.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', closeNav);
+      });
+
+      document.addEventListener('click', function (e) {
+        if (nav.classList.contains('is-open') && !nav.contains(e.target) && !toggle.contains(e.target)) {
+          closeNav();
+        }
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && nav.classList.contains('is-open')) {
+          closeNav();
+          toggle.focus();
+        }
+      });
+    })();
+
+    /* Pre-select package from URL parameter and toggle extras visibility */
+    (function () {
+      var select = document.getElementById('package');
+      var extras = document.getElementById('extras-fieldset');
+      if (!select || !extras) return;
+
+      function toggleExtras() {
+        if (select.value) {
+          extras.hidden = false;
+        } else {
+          extras.hidden = true;
+          extras.querySelectorAll('input[type="checkbox"]').forEach(function (cb) {
+            cb.checked = false;
+          });
+        }
+      }
+
+      var params = new URLSearchParams(window.location.search);
+      var pkg = params.get('package');
+      if (pkg) {
+        var map = { starter: 1, standard: 2, professional: 3 };
+        if (map[pkg] !== undefined) {
+          select.selectedIndex = map[pkg];
+        }
+      }
+
+      toggleExtras();
+      select.addEventListener('change', toggleExtras);
+    })();
+  </script>
+
+</body>
+</html>
